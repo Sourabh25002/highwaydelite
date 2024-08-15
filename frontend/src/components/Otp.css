@@ -1,0 +1,78 @@
+/* Main container for the OTP verification form */
+.otp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensures the container covers the full viewport height */
+  background-color: #ffffff;
+  padding: 20px; /* Adds padding to prevent the form from touching the edges on smaller screens */
+  box-sizing: border-box; /* Ensures padding is included in the total width and height */
+}
+
+/* Styling for the OTP form box */
+.otp-form {
+  background-color: #f3f1f5;
+  padding: 40px; /* Increased padding for better spacing */
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box; /* Ensures padding is included in the total width */
+  text-align: center;
+}
+
+/* Header styling for the OTP form */
+.otp-header {
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #3a244a;
+  font-weight: 600;
+}
+
+/* Input fields styling */
+.otp-input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px; /* Increased bottom margin for better spacing */
+  border: 2px solid #3a244a;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #3a244a;
+  background-color: #ffffff;
+  outline: none;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box; /* Ensures padding is included in the total width */
+}
+
+/* Focus effect for the input fields */
+.otp-input:focus {
+  border-color: #d72638;
+}
+
+/* Button styling for verifying the OTP */
+.verify-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #3a244a;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box; /* Ensures padding is included in the total width */
+}
+
+/* Hover effect for the button */
+.verify-button:hover {
+  background-color: #d72638;
+}
+
+/* Error message styling */
+.error-message {
+  margin-top: 15px;
+  color: #d72638;
+  font-size: 14px;
+  font-weight: 500;
+}
