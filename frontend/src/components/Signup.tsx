@@ -50,7 +50,7 @@ const Signup: React.FC = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:4000/api/auth/signup",
+        "https://highwaydelite-d2lt.onrender.com/api/auth/signup",
         {
           firstName,
           lastName,

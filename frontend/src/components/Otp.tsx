@@ -13,7 +13,7 @@ const OtpVerification: React.FC = () => {
 
     try {
       const response = await fetch(
-        "http://localhost:4000/api/auth/verify-otp",
+        "https://highwaydelite-d2lt.onrender.com/api/auth/verify-otp",
         {
           method: "POST",
           headers: {
